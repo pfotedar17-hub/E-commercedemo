@@ -1,8 +1,10 @@
 from configparser import ConfigParser
-
+import os
 
 config = ConfigParser()
 config.read("Configurations/config.ini")
+
+env = os.getenv("ENV","PROD")
 
 class ReadConfig:
 
