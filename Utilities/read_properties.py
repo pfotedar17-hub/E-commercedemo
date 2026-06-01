@@ -12,7 +12,7 @@ class ReadConfig:
     def get_application_url():
 
         return config.get(
-            "common info",
+            env,
             "baseURL"
         )
 
@@ -21,7 +21,7 @@ class ReadConfig:
     def get_username():
 
         return config.get(
-            "common info",
+            env,
             "username"
         )
 
@@ -30,7 +30,7 @@ class ReadConfig:
     def get_password():
 
         return config.get(
-            "common info",
+            env,
             "password"
         )
 
@@ -39,6 +39,6 @@ class ReadConfig:
     def get_file_path():
 
         return config.get(
-            "common info",
+            env,
             "File_Path"
         )

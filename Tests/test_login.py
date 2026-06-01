@@ -1,10 +1,15 @@
 import pytest
+import allure
 from Pages.LoginTest import LoginPage
 from Utilities.Logger import get_logger
 from Utilities.read_properties import ReadConfig
 
 logger = get_logger()
 
+
+@allure.title("Login Validation Test")
+@allure.description("Verify login functionality with multiple credential combinations")
+@allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.parametrize(
     "username, password, expected_result",
     [

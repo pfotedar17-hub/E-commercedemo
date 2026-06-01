@@ -1,0 +1,9 @@
+[32mINFO    [0m root:BasePage.py:20 Finding ('id', 'user-name') and entering standard_user
+[32mINFO    [0m root:BasePage.py:20 Finding ('id', 'password') and entering secret_sauce
+[32mINFO    [0m root:BasePage.py:15 Finding and clicking ('id', 'login-button')
+[32mINFO    [0m root:BasePage.py:26 Retrieving text from ('xpath', "//div[@class='app_logo']") 
+[32mINFO    [0m root:BasePage.py:33 Text fetched from ('xpath', "//div[@class='app_logo']")
+[32mINFO    [0m root:BasePage.py:34 Comparing Swag Labs with Swag Labs
+[32mINFO    [0m root:test_productvalidation.py:23 Starting product name validation
+[32mINFO    [0m root:BasePage.py:137 Fetching all product names from ('class name', 'inventory_item_name')
+[32mINFO    [0m root:BasePage.py:145 Product names fetched: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']

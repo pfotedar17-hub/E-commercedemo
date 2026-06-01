@@ -1,0 +1,9 @@
+[32mINFO    [0m root:BasePage.py:20 Finding ('id', 'user-name') and entering standard_user
+[32mINFO    [0m root:BasePage.py:20 Finding ('id', 'password') and entering secret_sauce
+[32mINFO    [0m root:BasePage.py:15 Finding and clicking ('id', 'login-button')
+[32mINFO    [0m root:BasePage.py:26 Retrieving text from ('xpath', "//div[@class='app_logo']") 
+[32mINFO    [0m root:BasePage.py:33 Text fetched from ('xpath', "//div[@class='app_logo']")
+[32mINFO    [0m root:BasePage.py:34 Comparing Swag Labs with Swag Labs
+[32mINFO    [0m root:test_productvalidation.py:14 Starting product count validation
+[32mINFO    [0m root:BasePage.py:151 Fetching product count from ('class name', 'inventory_item')
+[32mINFO    [0m root:BasePage.py:159 Total products found: 6
