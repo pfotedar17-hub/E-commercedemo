@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from Pages.LoginTest import LoginPage
 from Utilities.screenshot import capture_screenshot
+import allure
 
 @pytest.fixture
 def driver():
@@ -44,4 +45,10 @@ def pytest_runtest_makereport(item, call):
         driver = item.funcargs.get("driver")
 
         if driver:
-            capture_screenshot(driver,item.name)
+            screenshot_path = capture_screenshot(driver,item.name)
+
+            allure.attach.file(
+                screenshot_path,
+                               name= "Failure Screenshot",
+                               attachment_type= allure.attachment_type.PNG
+            )

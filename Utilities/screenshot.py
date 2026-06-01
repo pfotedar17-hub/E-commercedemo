@@ -11,4 +11,4 @@ def capture_screenshot(driver, test_name):
     screenshot_path = os.path.join("Screenshots",screenshot_name)
 
     driver.save_screenshot(screenshot_path)
-    print(f"Screenshot saved: {screenshot_path}")
+    return screenshot_path

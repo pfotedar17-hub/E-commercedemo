@@ -14,7 +14,7 @@ logger = get_logger()
     "username, password, expected_result",
     [
         (
-                "standard_user", "secret_sauce", "Swag Labs"  # Valid Login
+                "standard_user", "secret_sauc", "Swag Labs"  # Valid Login
         ),
 
         (

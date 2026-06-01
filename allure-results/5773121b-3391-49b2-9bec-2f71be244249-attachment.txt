@@ -1,0 +1,8 @@
+[32mINFO    [0m root:test_login.py:45 Starting Login Test
+[32mINFO    [0m root:BasePage.py:20 Finding ('id', 'user-name') and entering 
+[32mINFO    [0m root:BasePage.py:20 Finding ('id', 'password') and entering secret_sauce
+[32mINFO    [0m root:BasePage.py:15 Finding and clicking ('id', 'login-button')
+[32mINFO    [0m root:test_login.py:59 Validating login error message
+[32mINFO    [0m root:BasePage.py:26 Retrieving text from ('xpath', "//h3[@data-test='error']") 
+[32mINFO    [0m root:BasePage.py:33 Text fetched from ('xpath', "//h3[@data-test='error']")
+[32mINFO    [0m root:BasePage.py:34 Comparing Epic sadface: Username is required with Epic sadface: Username is required
